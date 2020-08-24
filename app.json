@@ -1,6 +1,6 @@
 {
   "Project_Name" : "Test Project" ,
-  "Author" : "yash" ,
+  "Author" : "test" ,
   "S3_Bucket" : "s3://test_bucket/" ,
   "API" : "test API" ,
   "Stage" : "Prod" ,
@@ -9,7 +9,7 @@
   "Customer1" : {
     "Dev" : {
       "Project_Name" : "Test Project" ,
-      "Author" : "yash" ,
+      "Author" : "test" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Prod" ,
@@ -18,7 +18,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "Test Project" ,
-      "Author" : "yash" ,
+      "Author" : "test" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Prod" ,
@@ -27,7 +27,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "Test Project" ,
-      "Author" : "yash1" ,
+      "Author" : "test1" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust1" ,
       "API" : "test-prod-cust-1" ,
       "Stage" : "Prod" ,
@@ -39,7 +39,7 @@
   "Customer2" : {
     "Dev" : {
       "Project_Name" : "Test Project" ,
-      "Author" : "yash" ,
+      "Author" : "test" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test-prod-cust-3" ,
       "Stage" : "Prod" ,
@@ -48,7 +48,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "Test Project" ,
-      "Author" : "yash" ,
+      "Author" : "test" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Prod" ,
@@ -57,7 +57,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "Customer-2-prod" ,
-      "Author" : "yash2" ,
+      "Author" : "test2" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust2" ,
       "API" : "test-prod-cust-2" ,
       "Stage" : "Prod" ,
@@ -69,7 +69,7 @@
   "Customer3" : {
     "Dev" : {
       "Project_Name" : "Customer-3-dev" ,
-      "Author" : "yash" ,
+      "Author" : "test" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Dev" ,
@@ -78,7 +78,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "Customer-3-UAT" ,
-      "Author" : "yash" ,
+      "Author" : "test" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "UAT" ,
@@ -87,7 +87,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "Customer-3-prod" ,
-      "Author" : "yash3" ,
+      "Author" : "test3" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust3" ,
       "API" : "test-prod-cust-3" ,
       "Stage" : "Prod" ,
