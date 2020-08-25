@@ -13,7 +13,6 @@ pipeline {
 
         stage('Install Node modules') {
             steps {
-              sh   'echo "Running ENV"'
               sh '''
               chmod +x test.sh
               sh test.sh
