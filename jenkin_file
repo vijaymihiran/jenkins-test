@@ -36,12 +36,12 @@ def doParallelDeploys(config , customer){
 
 
 node {
-    config = readJSON file: 'app.json' 
 
     stage("checkout SCM"){
-        git branch: 'master', url: 'https://github.com/yashshuklahash/jenkins-test.git'
+        git branch: 'master', credentialsId: 'github', url: 'https://github.com/vijaymihiran/jenkins-test.git' 
     }
 
+    config = readJSON file: 'app.json' 
     stage('Build Stage'){
         echo "This is build stage"
         sh "sleep 5"   
