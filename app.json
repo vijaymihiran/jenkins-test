@@ -1,7 +1,7 @@
 {
   "customers" : ["decon" , "irby" , "kfc" ,"mcd"],
   "Project_Name" : "Test Project" ,
-  "Author" : "yash" ,
+  "Author" : "Devops" ,
   "S3_Bucket" : "s3://test_bucket/" ,
   "API" : "test API" ,
   "Stage" : "Prod" ,
@@ -12,7 +12,7 @@
     "Automated_Test" : 1 ,    
     "Dev" : {
       "Project_Name" : "decon-dev" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Prod" ,
@@ -21,7 +21,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "decon-UAT" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Prod" ,
@@ -30,7 +30,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "decon-prod" ,
-      "Author" : "yash1" ,
+      "Author" : "Devops1" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust1" ,
       "API" : "test-prod-cust-1" ,
       "Stage" : "Prod" ,
@@ -44,7 +44,7 @@
     "Automated_Test" : 0 ,   
     "Dev" : {
       "Project_Name" : "irby -dev" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test-prod-cust-3" ,
       "Stage" : "Prod" ,
@@ -53,7 +53,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "irby - UAT" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Prod" ,
@@ -62,7 +62,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "irby - Prod" ,
-      "Author" : "yash2" ,
+      "Author" : "Devops2" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust2" ,
       "API" : "test-prod-cust-2" ,
       "Stage" : "Prod" ,
@@ -76,7 +76,7 @@
     "Automated_Test" : 1 ,   
     "Dev" : {
       "Project_Name" : "kfc-dev" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Dev" ,
@@ -85,7 +85,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "kfc-UAT" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "UAT" ,
@@ -94,7 +94,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "kfc-prod" ,
-      "Author" : "yash3" ,
+      "Author" : "Devops3" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust3" ,
       "API" : "test-prod-cust-3" ,
       "Stage" : "Prod" ,
@@ -107,7 +107,7 @@
     "Automated_Test" : 1 ,   
     "Dev" : {
       "Project_Name" : "mcd-dev" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "Dev" ,
@@ -116,7 +116,7 @@
     } ,
     "UAT" : {
       "Project_Name" : "mcd-UAT" ,
-      "Author" : "yash" ,
+      "Author" : "Devops" ,
       "S3_Bucket" : "s3://test_bucket/" ,
       "API" : "test API" ,
       "Stage" : "UAT" ,
@@ -125,7 +125,7 @@
     } ,
     "Prod" : {
       "Project_Name" : "mcd-prod" ,
-      "Author" : "yash3" ,
+      "Author" : "Devops3" ,
       "S3_Bucket" : "s3://test_bucket-prod-cust3" ,
       "API" : "test-prod-cust-3" ,
       "Stage" : "Prod" ,
