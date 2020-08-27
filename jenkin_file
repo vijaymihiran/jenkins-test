@@ -48,7 +48,7 @@ node {
     
 
     stage("checkout SCM"){
-        git branch: 'master', url: 'git@bitbucket.org:rendercode/jenkins_pipeline.git'
+        git branch: 'master', credentialsId: 'github', url: 'https://github.com/vijaymihiran/jenkins-test.git'
     }
 
     config = readJSON file: 'app.json' 
