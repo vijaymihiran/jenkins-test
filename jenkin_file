@@ -2,6 +2,15 @@ def doParallelDeploys(config , customer){
         
     return {
             node {
+                stage("Deploy to Dev") {
+                    stage = "Dev"
+                    project = config[customer][stage]["Project_Name"]
+                    echo "Project Name is : ${project}"
+                    echo "Author Name is : ${config[customer][stage]["Author"]} "
+                    echo "S3 Bucket URL is : ${config[customer][stage]["S3_Bucket"]} " 
+                    echo "API Endpoint is : ${config[customer][stage]["API"]} " 
+                    echo "Is Deployment HighAvailale ? : ${config[customer][stage]["HA"]}"
+                }
                 stage("Deploy to UAT") {
                     stage = "UAT"
                     project = config[customer][stage]["Project_Name"]
@@ -36,12 +45,14 @@ def doParallelDeploys(config , customer){
 
 
 node {
+    
 
     stage("checkout SCM"){
-        git branch: 'master', credentialsId: 'github', url: 'https://github.com/vijaymihiran/jenkins-test.git' 
+        git branch: 'master', url: 'git@bitbucket.org:rendercode/jenkins_pipeline.git'
     }
 
     config = readJSON file: 'app.json' 
+
     stage('Build Stage'){
         echo "This is build stage"
         sh "sleep 5"   
@@ -76,3 +87,4 @@ node {
 }
 
 }
+
